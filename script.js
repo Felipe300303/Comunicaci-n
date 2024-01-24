@@ -73,7 +73,7 @@ function ComprobarRespuesta(opElegida){
     }
     posActual++;
     //esperamos 1 segundo y pasamos mostrar la siguiente bandera y sus opciones
-    setTimeout(cargarBandera,600);
+    setTimeout(cargarBandera,400);
 }
 function terminarJuego(){
     //ocultamos las pantallas y mostramos la pantalla final
